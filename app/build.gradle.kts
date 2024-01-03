@@ -55,13 +55,19 @@ dependencies {
     implementation(libs.ui.graphics)
     implementation(libs.ui.tooling.preview)
     implementation(libs.material3)
+    //debug specific
+    debugImplementation(libs.debug.ui.tooling)
+    debugImplementation(libs.debug.ui.tooling)
+
+    //test dependency
     testImplementation(libs.test.junit)
+    testImplementation(libs.kotlinx.coroutines.test)
+
+    // android test
     androidTestImplementation(libs.atest.ext.junit)
     androidTestImplementation(libs.atestespresso.core)
     androidTestImplementation(platform(libs.compose.bom))
     androidTestImplementation(libs.test.ui.junit4)
-    debugImplementation(libs.debug.ui.tooling)
-    debugImplementation(libs.debug.ui.tooling)
 
     androidTestImplementation(libs.core.testing)
     androidTestImplementation(libs.test.core.ktx)
