@@ -2,10 +2,19 @@
 <project version="4">
   <component name="deploymentTargetDropDown">
     <value>
+      <entry key="MainScreenTest">
+        <State />
+      </entry>
       <entry key="app">
         <State />
       </entry>
       <entry key="insertNoteAndGetById()">
+        <State />
+      </entry>
+      <entry key="mainScreenTest()">
+        <State />
+      </entry>
+      <entry key="navTestNoteEditScreen()">
         <State />
       </entry>
     </value>

@@ -20,6 +20,7 @@ room-ktx = "2.6.0-alpha02"
 kotlinx-coroutines-core = "1.7.1"
 kotlin-ksp = "1.9.20-1.0.14"
 hilt-lifecycle-viewmodel = "1.0.0-alpha03"
+ui-test-manifest = "1.5.4"
 
 [libraries]
 core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
@@ -31,6 +32,7 @@ compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = 
 test-core-ktx = { module = "androidx.test:core-ktx", version.ref = "androidx-core-ktx" }
 ui = { group = "androidx.compose.ui", name = "ui" }
 ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+ui-test-manifest = { module = "androidx.compose.ui:ui-test-manifest", version.ref = "ui-test-manifest" }
 ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
 material3 = { group = "androidx.compose.material3", name = "material3" }
 test-junit = { group = "junit", name = "junit", version.ref = "junit" }
