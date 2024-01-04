@@ -63,6 +63,9 @@ dependencies {
     debugImplementation(libs.debug.ui.tooling)
     debugImplementation(libs.debug.ui.tooling)
 
+    androidTestImplementation(libs.core.testing)
+    androidTestImplementation(libs.test.core.ktx)
+
 //    Compose dependencies
     implementation(libs.lifecycle.viewmodel.compose)
     implementation(libs.navigation.compose)

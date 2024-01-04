@@ -1,5 +1,7 @@
 [versions]
 agp = "8.2.0"
+androidx-core-ktx = "1.5.0"
+core-testing = "2.2.0"
 jetbrains-kotlin-android = "1.9.20"
 dagger-hilt-android = "2.48"
 core-ktx = "1.10.1"
@@ -21,10 +23,12 @@ hilt-lifecycle-viewmodel = "1.0.0-alpha03"
 
 [libraries]
 core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
+core-testing = { module = "androidx.arch.core:core-testing", version.ref = "core-testing" }
 kotlin-bom = { group = "org.jetbrains.kotlin", name = "kotlin-bom", version.ref = "kotlin-bom" }
 lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifetime-runtime-ktx" }
 activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activity-compose" }
 compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "compose-bom" }
+test-core-ktx = { module = "androidx.test:core-ktx", version.ref = "androidx-core-ktx" }
 ui = { group = "androidx.compose.ui", name = "ui" }
 ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
 ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
